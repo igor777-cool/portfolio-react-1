@@ -1,0 +1,30 @@
+.slogan {
+    height: 200px;
+    background-color: #ffedbb;
+    display: flex;
+    justify-content: center;
+
+
+}
+.container {
+    border: 1px solid;
+    display: flex;
+    height: 80%;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.btnSubmit {
+    background-color: rgba(120, 106, 255, 0.88);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 0 10px;
+}

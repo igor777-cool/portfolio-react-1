@@ -1,0 +1,61 @@
+.project {
+    height: 100vh;
+    background-color: #f2c2ff;
+    display: flex;
+    justify-content: center;
+
+
+}
+.conteiner {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.projectsWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.projectsBlock {
+    background-color: #fff;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon {
+    height: 250px;
+    background-color: #c9d6d6;
+    justify-content: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.description {
+    text-align: center;
+}
+.btnSubmit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    background-color: #786aff;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
